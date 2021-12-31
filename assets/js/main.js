@@ -58,7 +58,7 @@
 			$nav_li = $nav.find('li');
 
 		// Add "middle" alignment classes if we're dealing with an even number of items.
-			if ($nav_li.length % 2 == 0) {
+			if ($nav_li.length % 2 !== 0) {
 
 				$nav.addClass('use-middle');
 				$nav_li.eq( ($nav_li.length / 2) ).addClass('is-middle');
@@ -368,10 +368,23 @@
     emailButton.addEventListener("click", function(){
       navigator.clipboard.writeText("nathanielrconrad@gmail.com");
       emailButton.innerHTML = "Copied!";
-      setInterval(function(){
-        emailButton.innerHTML = "Copy Email to Clipboard";
-      },5000);
     });
+
+
+    //Create False-Binary Effect
+    //Rapidly updates the inner HTML of icon span between 1 and 0 to trick the eye into seeing them blend
+    // document.getElementById("false-binary").innerHTML = "1";
+
+    // function displayBinary(){
+    //   if (document.getElementById("false-binary").innerHTML === null || document.getElementById("false-binary").innerHTML === "0"){
+    //     document.getElementById("false-binary").innerHTML = "1";
+    //   } else {
+    //     document.getElementById("false-binary").innerHTML = "0";
+    //   };  
+    // };
+
+    // setInterval(displayBinary, 50);
+    
 
     //Copyright Date
     //This inserts the current year into the footer copyright text

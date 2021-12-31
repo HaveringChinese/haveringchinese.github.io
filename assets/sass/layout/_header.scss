@@ -59,6 +59,10 @@
 					font-size: 2rem;
 				}
 			}
+      &.false-binary {
+        color: red;
+        font-size: 3rem;
+      }
 		}
 
 		.content {

@@ -61,7 +61,7 @@
 			color: _palette(bg) !important;
 			font-weight: _font(weight-bold);
 
-			&:hover {
+      &:hover {
 			}
 
 			&:active {
@@ -76,9 +76,10 @@
 		}
 	}
 
-	input[type="submit"],
+ 	input[type="submit"],
 	input[type="reset"],
 	input[type="button"],
 	button {
 		line-height: calc(#{_size(element-height)} - 2px);
 	}
+  
