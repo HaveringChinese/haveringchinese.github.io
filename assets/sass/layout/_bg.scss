@@ -9,6 +9,7 @@
 	#bg {
 		@include vendor('transform', 'scale(1.0)');
 		-webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
 		position: fixed;
 		top: 0;
 		left: 0;
@@ -46,7 +47,7 @@
 				'transform #{_duration(article)} ease-in-out',
 				'filter #{_duration(article)} ease-in-out'
 			));
-			background-image:		url('../../images/bg.jpg');
+			background-image:		url('../../images/lpot_sunny.jpg');
 			background-position:	center;
 			background-size:		cover;
 			background-repeat:		no-repeat;

@@ -19,7 +19,7 @@
 
 		&:before {
 			content: '';
-			display: block;
+			display: none;
 		}
 
 		@include breakpoint('<=xlarge') {

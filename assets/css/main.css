@@ -169,7 +169,7 @@ h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
   text-decoration: none;
 }
 h1.major, h2.major, h3.major, h4.major, h5.major, h6.major {
-  border-bottom: solid 1px #ffffff;
+  border-bottom: solid 1px #ddae69;
   width: -moz-max-content;
   width: -webkit-max-content;
   width: -ms-max-content;
@@ -230,7 +230,7 @@ sup {
 }
 
 blockquote {
-  border-left: solid 4px #ffffff;
+  border-left: solid 4px #ddae69;
   font-style: italic;
   margin: 0 0 2rem 0;
   padding: 0.5rem 0 0.5rem 2rem;
@@ -260,7 +260,7 @@ pre code {
 
 hr {
   border: 0;
-  border-bottom: solid 1px #ffffff;
+  border-bottom: solid 1px #ddae69;
   margin: 2.75rem 0;
 }
 
@@ -278,7 +278,7 @@ hr {
 
 /* Form */
 form {
-  margin: 0 0 2rem 0;
+  margin: 20px 0 2rem 0;
 }
 form > :last-child {
   margin-bottom: 0;
@@ -363,7 +363,7 @@ textarea {
   transition: border-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out, background-color 0.2s ease-in-out;
   background-color: transparent;
   border-radius: 4px;
-  border: solid 1px #ffffff;
+  border: solid 1px #ddae69;
   color: inherit;
   display: block;
   outline: 0;
@@ -391,7 +391,7 @@ textarea:focus {
 }
 
 select {
-  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='40' height='40' preserveAspectRatio='none' viewBox='0 0 40 40'%3E%3Cpath d='M9.4,12.3l10.4,10.4l10.4-10.4c0.2-0.2,0.5-0.4,0.9-0.4c0.3,0,0.6,0.1,0.9,0.4l3.3,3.3c0.2,0.2,0.4,0.5,0.4,0.9 c0,0.4-0.1,0.6-0.4,0.9L20.7,31.9c-0.2,0.2-0.5,0.4-0.9,0.4c-0.3,0-0.6-0.1-0.9-0.4L4.3,17.3c-0.2-0.2-0.4-0.5-0.4-0.9 c0-0.4,0.1-0.6,0.4-0.9l3.3-3.3c0.2-0.2,0.5-0.4,0.9-0.4S9.1,12.1,9.4,12.3z' fill='%23ffffff' /%3E%3C/svg%3E");
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='40' height='40' preserveAspectRatio='none' viewBox='0 0 40 40'%3E%3Cpath d='M9.4,12.3l10.4,10.4l10.4-10.4c0.2-0.2,0.5-0.4,0.9-0.4c0.3,0,0.6,0.1,0.9,0.4l3.3,3.3c0.2,0.2,0.4,0.5,0.4,0.9 c0,0.4-0.1,0.6-0.4,0.9L20.7,31.9c-0.2,0.2-0.5,0.4-0.9,0.4c-0.3,0-0.6-0.1-0.9-0.4L4.3,17.3c-0.2-0.2-0.4-0.5-0.4-0.9 c0-0.4,0.1-0.6,0.4-0.9l3.3-3.3c0.2-0.2,0.5-0.4,0.9-0.4S9.1,12.1,9.4,12.3z' fill='%23ddae69' /%3E%3C/svg%3E");
   background-size: 1.25rem;
   background-repeat: no-repeat;
   background-position: calc(100% - 1rem) center;
@@ -471,7 +471,7 @@ input[type=radio] + label:before {
   -ms-transition: border-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out, background-color 0.2s ease-in-out;
   transition: border-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out, background-color 0.2s ease-in-out;
   border-radius: 4px;
-  border: solid 1px #ffffff;
+  border: solid 1px #ddae69;
   content: "";
   display: inline-block;
   height: 1.65rem;
@@ -532,7 +532,7 @@ input[type=radio] + label:before {
 /* Box */
 .box {
   border-radius: 4px;
-  border: solid 1px #ffffff;
+  border: solid 1px #ddae69;
   margin-bottom: 2rem;
   padding: 1.5em;
 }
@@ -684,7 +684,7 @@ ul.alt {
   padding-left: 0;
 }
 ul.alt li {
-  border-top: solid 1px #ffffff;
+  border-top: solid 1px #ddae69;
   padding: 0.5em 0;
 }
 ul.alt li:first-child {
@@ -823,7 +823,7 @@ ul.icons li:last-child {
 }
 ul.icons li a {
   border-radius: 100%;
-  box-shadow: inset 0 0 0 1px #ffffff;
+  box-shadow: inset 0 0 0 1px #ddae69;
   display: inline-block;
   height: 2.25rem;
   line-height: 2.25rem;
@@ -848,7 +848,7 @@ table {
   width: 100%;
 }
 table tbody tr {
-  border: solid 1px #ffffff;
+  border: solid 1px #ddae69;
   border-left: 0;
   border-right: 0;
 }
@@ -866,16 +866,16 @@ table th {
   text-align: left;
 }
 table thead {
-  border-bottom: solid 2px #ffffff;
+  border-bottom: solid 2px #ddae69;
 }
 table tfoot {
-  border-top: solid 2px #ffffff;
+  border-top: solid 2px #ddae69;
 }
 table.alt {
   border-collapse: separate;
 }
 table.alt tbody tr td {
-  border: solid 1px #ffffff;
+  border: solid 1px #ddae69;
   border-left-width: 0;
   border-top-width: 0;
 }
@@ -909,7 +909,7 @@ button,
   background-color: transparent;
   border-radius: 4px;
   border: 0;
-  box-shadow: inset 0 0 0 1px #ffffff;
+  box-shadow: inset 0 0 0 1px #ddae69;
   color: #ffffff !important;
   cursor: pointer;
   display: inline-block;
@@ -999,6 +999,7 @@ button {
   -ms-transform: scale(1.0);
   transform: scale(1.0);
   -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
   position: fixed;
   top: 0;
   left: 0;
@@ -1039,7 +1040,7 @@ button {
   -webkit-transition: -webkit-transform 0.325s ease-in-out, -webkit-filter 0.325s ease-in-out;
   -ms-transition: -ms-transform 0.325s ease-in-out, -ms-filter 0.325s ease-in-out;
   transition: transform 0.325s ease-in-out, filter 0.325s ease-in-out;
-  background-image: url("../../images/bg.jpg");
+  background-image: url("../../images/lpot_sunny.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -1085,7 +1086,7 @@ body.is-preload #bg:before {
 }
 #wrapper:before {
   content: "";
-  display: block;
+  display: none;
 }
 @media screen and (max-width: 1680px) {
   #wrapper {
@@ -1138,13 +1139,13 @@ body.is-preload #bg:before {
 }
 #header > *:before {
   content: "";
-  display: block;
+  display: none;
   position: absolute;
   top: calc(-3.5rem - 1px);
   left: calc(50% - 1px);
   width: 1px;
   height: calc(3.5rem + 1px);
-  background: #ffffff;
+  background: #ddae69;
 }
 #header > :first-child {
   margin-top: 0;
@@ -1153,21 +1154,28 @@ body.is-preload #bg:before {
   display: none;
 }
 #header .logo {
+  display: none;
   width: 5.5rem;
   height: 5.5rem;
   line-height: 5.5rem;
-  border: solid 1px #ffffff;
+  border: solid 1px #ddae69;
   border-radius: 100%;
 }
 #header .logo .icon:before {
   font-size: 2rem;
 }
+#header .logo.false-binary {
+  color: red;
+  font-size: 3rem;
+}
 #header .content {
-  border-style: solid;
-  border-color: #ffffff;
+  border-style: none;
+  border-color: #ddae69;
   border-top-width: 1px;
   border-bottom-width: 1px;
   max-width: 100%;
+  background-color: rgba(255, 255, 255, 0.151);
+  backdrop-filter: blur(14px);
 }
 #header .content .inner {
   -moz-transition: max-height 0.75s ease, padding 0.75s ease, opacity 0.325s ease-in-out;
@@ -1185,6 +1193,9 @@ body.is-preload #bg:before {
 #header .content .inner > :last-child {
   margin-bottom: 0;
 }
+#header .content .highlighted {
+  color: #ddae69;
+}
 #header .content p {
   text-transform: uppercase;
   letter-spacing: 0.2rem;
@@ -1199,12 +1210,12 @@ body.is-preload #bg:before {
   margin-bottom: 0;
   list-style: none;
   padding-left: 0;
-  border: solid 1px #ffffff;
+  border: solid 1px #ddae69;
   border-radius: 4px;
 }
 #header nav ul li {
   padding-left: 0;
-  border-left: solid 1px #ffffff;
+  border-left: solid 1px #ddae69;
 }
 #header nav ul li:first-child {
   border-left: 0;
@@ -1234,7 +1245,7 @@ body.is-preload #bg:before {
   left: calc(50% - 1px);
   width: 1px;
   height: 100%;
-  background: #ffffff;
+  background: #ddae69;
 }
 #header nav.use-middle ul li.is-middle {
   border-left: 0;
@@ -1310,7 +1321,7 @@ body.is-preload #header .content .inner {
   }
   #header nav ul li {
     border-left: 0;
-    border-top: solid 1px #ffffff;
+    border-top: solid 1px #ddae69;
   }
   #header nav ul li:first-child {
     border-top: 0;
@@ -1406,7 +1417,7 @@ body.is-preload #header .content .inner {
   height: 2.5rem;
   border-radius: 100%;
   background-position: center;
-  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' width='20px' height='20px' viewBox='0 0 20 20' zoomAndPan='disable'%3E%3Cstyle%3Eline %7B stroke: %23ffffff%3B stroke-width: 1%3B %7D%3C/style%3E%3Cline x1='2' y1='2' x2='18' y2='18' /%3E%3Cline x1='18' y1='2' x2='2' y2='18' /%3E%3C/svg%3E");
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' width='20px' height='20px' viewBox='0 0 20 20' zoomAndPan='disable'%3E%3Cstyle%3Eline %7B stroke: %23ddae69%3B stroke-width: 1%3B %7D%3C/style%3E%3Cline x1='2' y1='2' x2='18' y2='18' /%3E%3Cline x1='18' y1='2' x2='2' y2='18' /%3E%3C/svg%3E");
   background-size: 20px 20px;
   background-repeat: no-repeat;
 }
